@@ -24,6 +24,7 @@ nav ul{
 nav ul li{
     padding: 0 15px;
 }
+
 .logo img{
     width: 42px;
     padding: 0 8px;
@@ -35,4 +36,22 @@ nav ul li{
     align-items: center;
     font-weight: bolder;
     font-size: 1.3rem;
+}
+
+.container{
+    min-height: 75vh;
+}
+
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: beige;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myProgressBar{
+    width: 70vw;
 }
