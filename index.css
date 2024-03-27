@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Protest+Revolution&display=swap');
+body{
+    background-color: gray;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:  'Kode Mono', monospace;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: beige;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+.logo img{
+    width: 42px;
+    padding: 0 8px;
+}
+
+.logo{
+    font-family: "Protest Revolution", sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,2 @@
+font-family: "Kode Mono", monospace;
+font-family: "Protest Revolution", sans-serif;
