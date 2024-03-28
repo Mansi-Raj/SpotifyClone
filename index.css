@@ -18,7 +18,8 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 60px;
-    background-color: beige;
+    background-color: #373737;
+    color: aliceblue;
 }
 
 nav ul li{
@@ -39,17 +40,36 @@ nav ul li{
 }
 
 .container{
-    min-height: 75vh;
+    min-height: 70vh;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    font-family: "Kode Mono", monospace;
+    display: flex;
+    margin: 23px auto;
+    width: 60%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("./assests/background.jpg")
 }
 
 .bottom{
     position: sticky;
-    height: 120px;
-    background-color: beige;
+    height: 700px;
+    background-color: #373737;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
 }
 
 #myProgressBar{
